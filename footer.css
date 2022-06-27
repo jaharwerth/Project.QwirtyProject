@@ -1,0 +1,41 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #255;
+    padding: 18px;
+    font-family: Dosis;
+    justify-content: center;
+}
+
+section{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+section:last-of-type{
+    margin-right: 0px;
+}
+
+h2{
+    color: white;
+    border-bottom: white;
+    padding-bottom: 2.5px;
+    margin-bottom: 2.5px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.anchor2{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.anchor2:hover{
+    border-bottom: 1px solid white;
+    margin-bottom: 4px;
+}
